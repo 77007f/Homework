@@ -24,7 +24,7 @@ df2.head(50)
 
 ############## 파일을 MERGE
 
-df = pd.merge(df1, df2, left_on = 'sigoodong', right_on ='sigoodong')
+df = pd.merge(df1, df2)
 
 ############# 데이터 내용보기
 
